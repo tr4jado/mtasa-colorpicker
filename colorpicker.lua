@@ -126,6 +126,5 @@ function ColorPicker:destroy()
     self = nil
 
     collectgarbage()
-
     return true
 end
