@@ -89,8 +89,8 @@ function ColorPicker:draw(x, y, width, height)
     local circleHalf = circleSize / 2
 
     dxSetBlendMode('add')
-    dxDrawImage(x + self.selected[1] - circleHalf, y + self.selected[2] - circleHalf, circleSize, circleSize, circle, 0, 0, 0, tocolor(255, 255, 255, 255))
-    dxDrawImage(x + self.selected[1] - circleHalf, y + self.selected[2] - circleHalf, circleSize, circleSize, stroke, 0, 0, 0, tocolor(r, g, b, 255))
+    dxDrawImage(x + self.selected[1] - circleHalf, y + self.selected[2] - circleHalf, circleSize, circleSize, circle, 0, 0, 0, tocolor(r, g, b, 255))
+    dxDrawImage(x + self.selected[1] - circleHalf, y + self.selected[2] - circleHalf, circleSize, circleSize, stroke, 0, 0, 0, tocolor(255, 255, 255, 255))
     dxSetBlendMode('blend')
 end
 
