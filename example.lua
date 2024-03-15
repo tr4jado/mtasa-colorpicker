@@ -10,8 +10,3 @@ addEventHandler('onClientRender', root, function()
     local r, g, b = pallet:getColor()
     dxDrawText('R: ' .. r .. '\nG: ' .. g .. '\nB: ' .. b, palletX, palletY)
 end)
-
-bindKey('b', 'down', function()
-    local result = pallet:setColor(254, 254, 254)
-    outputConsole(inspect(result))
-end)
