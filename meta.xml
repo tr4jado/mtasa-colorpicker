@@ -1,0 +1,9 @@
+<meta>
+    <info author='tr4jado' />
+    <oop>true</oop>
+
+    <script src='colorpicker.lua' type='client' cache='false' />
+    <script src='example.lua' type='client' cache='false' />
+
+    <file src='colorpalette.png' />
+</meta>
